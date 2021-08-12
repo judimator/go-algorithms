@@ -46,6 +46,7 @@ func New(i int) *Set {
 	for j := 0; j < i; j++ {
 		items[j] = j
 	}
+
 	return &Set{
 		items: items,
 		size:  make([]int, i),
